@@ -1,0 +1,17 @@
+{
+  "name": "full-stack-project-utkarsh",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
+    "server": "node ./server/server.js",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
